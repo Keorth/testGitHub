@@ -5,6 +5,8 @@
  */
 package testgithub;
 
+import entity.City;
+
 /**
  *
  * @author chaillou
@@ -15,9 +17,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(hello());
+        City paris = new City ("Paris",2,"France");
+        
+        System.out.println(hello() + " from " + paris.toString());
     }
     private static String hello() {
-        return "Bonjour sur GitHub";
+        return "Hello on GitHub";
     }
 }

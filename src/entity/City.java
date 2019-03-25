@@ -23,7 +23,7 @@ public class City {
     
     @Override
     public String toString () {
-        return "" + _name + " is a city with " + _nbOfLiving + "people in " + _country ; 
+        return "" + _name + " ,a city with " + _nbOfLiving + " million people in " + _country ; 
     }
     
 }
